@@ -3,6 +3,7 @@ import gallery1 from "../assets/images/gallery1.jpeg";
 import gallery2 from "../assets/images/gallery2.jpeg";
 import gallery3 from "../assets/images/gallery3.jpeg";
 import gallery4 from "../assets/images/gallery4.jpeg";
+import gallery5 from "../assets/images/gallery5.jpeg";
 
 const Gallery = ()=>{
     return (
@@ -19,6 +20,9 @@ const Gallery = ()=>{
                 </div>
                 <div className="rounded-lg h-full w-full overflow-hidden">
                     <img className="rounded-lg h-full w-full" src={gallery4} />
+                </div>
+                <div className="rounded-lg h-full w-full overflow-hidden">
+                    <img className="rounded-lg h-full w-full" src={gallery5} />
                 </div>
                 
             </div>

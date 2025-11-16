@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from "../components/Container";
-import { faLocationDot, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faMobileScreen, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
@@ -69,7 +69,7 @@ const Contact = () => {
 
   return (
     <Container id="contact">
-      <div className="grid lg:grid-cols-2 grid-cols-1 h-full">
+      <div className="grid lg:grid-cols-2 grid-cols-1 h-full sm:p-0 sm:m-0">
         {/* Form Section */}
         <div className="h-full p-5 flex flex-col justify-center">
           <h1 className="text-5xl font-bold">Contact Us</h1>
@@ -123,7 +123,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Info Section */}
-        <div className="h-full flex flex-col justify-center items-center p-5">
+        <div className="h-full flex flex-col justify-center items-center lh:p-5">
           <div className="w-[80%] h-[400px] rounded-lg overflow-hidden">
             {/* <iframe
               title="My Location"
@@ -154,7 +154,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-[80%] mt-4 flex items-center gap-3">
-            <FontAwesomeIcon icon={faMobileScreen} color="black" size="2x" />
+            <FontAwesomeIcon icon={faPhone} color="black" size="2x" />
             <div>
               <p className="font-semibold">Phone</p>
               <a href="tel:+91 9894220900">+91 9894220900</a>

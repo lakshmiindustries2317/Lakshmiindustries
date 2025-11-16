@@ -6,9 +6,9 @@ const NavBar = ()=>{
     }
     return (
         <nav className="h-20 border-b border-gray-300 shadow  w-full z-20 bg-white">
-            <div className="flex justify-between items-center h-full lg:mx-20 sm:mx-5">
+            <div className="flex lg:justify-between items-center h-full lg:mx-20 sm:mx-5">
                 <div className="flex justify-center items-center">
-                    <img className="h-24 w-24 rounded-full mx-3" src={logo} />
+                    <img className="lg:h-24 lg:w-24 h-20 w-20 rounded-full mx-3" src={logo} />
                     <a className="hidden lg:block text-4xl" href="#home">Lakshmi Industries</a>
                 </div>
                 <div className="flex items-center gap-4 h-full">

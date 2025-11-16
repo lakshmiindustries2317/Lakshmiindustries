@@ -1,0 +1,17 @@
+{
+    "company":"Lakshmi Industires",
+    "logo":"",
+    "work_base":[
+        {
+            "title":"Through-feed grinding",
+            "content":"In this method, the workpiece is fed continuously between the grinding wheel and the regulating wheel.",
+            "icon":"faCog"
+        },
+        {
+            "title":"Plunge (Infeed grinding)",
+            "content":"IIn this method, the workpiece is held stationary and the grinding wheel is fed radially into it.",
+            "icon":"faWrench"
+        }
+    ]
+
+}

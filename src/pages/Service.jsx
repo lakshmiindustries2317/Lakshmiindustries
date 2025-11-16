@@ -5,7 +5,7 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 const Service = ()=>{
     return (
         <Container class_name="flex flex-col jsutify-center items-center gap-5">
-            <h1 className="text-3xl">What We Do</h1>
+            <h1 className="text-3xl">What We Do jj</h1>
             <div className="flex flex-col lg:flex-row justify-center items-center gap-14">
                 <div className="border border-gray-100 rounded-lg shadow flex flex-col justify-center items-center w-80 p-5 gap-3">
                     <FontAwesomeIcon icon={faCircle} />
@@ -29,6 +29,11 @@ const Service = ()=>{
                     </p>
                 </div>
                 
+            </div>
+            <div className="h-20">
+                <div className="text-black">
+                    At our centreless grinding facility, we specialize in precision grinding solutions for components ranging from 4 mm to 18 mm diameter. With advanced grinding machinery, strict process control, and decades of hands-on expertise, we deliver parts that meet the most demanding industrial standards.We work extensively with premium stainless-steel materials such as SS 301, SS 401, and SS 410, ensuring exceptional strength, corrosion resistance, and dimensional accuracy across every batch. Whether it’s high-volume production or custom requirements, our team maintains tight tolerances, consistent surface quality, and repeatable accuracy throughout the grinding process.Our grinding operations are engineered to achieve close tolerances, supporting industries where precision is non-negotiable. Every component passes through strict quality checks to ensure the dimensions are stable, straightness is maintained, and surface parameters match customer specifications. We also deliver superior finishing with low RA surface values, meeting the aesthetic and functional requirements of applications in automotive, medical, defence, and general engineering industries.With a commitment to reliability, on-time delivery, and technical excellence, we focus on offering tailored grinding solutions that add value to your manufacturing processes. Our goal is to support your product performance through accuracy, durability, and superior surface finish.
+                </div>
             </div>
 
             <div className="flex w-full gap-5 mt-5" id="home">
